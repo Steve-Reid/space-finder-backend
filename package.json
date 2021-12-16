@@ -5,7 +5,7 @@
     "space-finder-backend": "bin/space-finder-backend.js"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "webpack",
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk"
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "aws-cdk-lib": "2.1.0",
+    "aws-sdk": "^2.1046.0",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.16",
     "uuid": "^8.3.2"
